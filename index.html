@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BodegaExpress VE Pro - El Sistema POS N° 1 para tu Negocio</title>
+    <meta name="description" content="Controla tus ventas, inventario, deudas de fiado y tasa BCV automáticamente. Aceptamos Pago Móvil. El mejor punto de venta para bodegas y abastos.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #030712 0%, #0f172a 50%, #064e3b 100%); }
+        .glow-emerald { box-shadow: 0 0 35px -5px rgba(16, 185, 129, 0.3); }
+        .glow-card { box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5); }
+    </style>
+</head>
+<body class="bg-[#030712] text-slate-100 antialiased selection:bg-emerald-500 selection:text-white">
+
+    <!-- NAV BAR -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-[#030712]/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-emerald-600/30">
+                    <i class="fa-solid fa-store"></i>
+                </div>
+                <div>
+                    <span class="font-extrabold text-lg sm:text-xl tracking-tight text-white">BodegaExpress <span class="text-emerald-400">VE Pro</span></span>
+                    <span class="block text-[10px] text-emerald-500 font-bold uppercase tracking-widest">Sistema POS & Inventario</span>
+                </div>
+            </div>
+            
+            <a href="URL_DE_TU_APLICACION_AQUI" class="app-launch-btn bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-5 py-2.5 rounded-xl text-sm transition shadow-lg shadow-emerald-600/25 flex items-center space-x-2">
+                <i class="fa-solid fa-rocket"></i>
+                <span class="hidden sm:inline">Probar Gratis 30 Días</span>
+                <span class="sm:hidden">Probar Gratis</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden gradient-bg">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            
+            <!-- Badge Tasa BCV & Pago Móvil -->
+            <div class="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-emerald-950/80 border border-emerald-500/30 text-emerald-400 text-xs sm:text-sm font-semibold mb-6 shadow-xl">
+                <span class="flex h-2 w-2 rounded-full bg-emerald-400 animate-ping"></span>
+                <span>¡Para Venezuela! Tasa BCV Automática • Cancela con Pago Móvil</span>
+            </div>
+
+            <!-- Main Headline -->
+            <h1 class="text-3xl sm:text-5xl md:text-6xl font-black text-white tracking-tight leading-tight max-w-4xl mx-auto mb-6">
+                Organiza tu Bodega o Abasto sin Complicaciones y <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">Multiplica tus Ganancias</span>
+            </h1>
+
+            <p class="text-base sm:text-xl text-slate-300 max-w-2xl mx-auto mb-8 font-medium leading-relaxed">
+                Controla ventas en dólares y bolívares, escanea código de barras, lleva la cuenta de los fiados y ajusta inventario en segundos desde tu teléfono o PC.
+            </p>
+
+            <!-- Price Highlight Hero con énfasis en Pago Móvil -->
+            <div class="inline-block bg-slate-900/90 border border-emerald-500/40 rounded-2xl p-4 sm:p-6 mb-10 glow-emerald max-w-md w-full">
+                <p class="text-xs uppercase font-bold text-slate-400 tracking-wider mb-1">Membresía Accesible para Todos</p>
+                <div class="flex items-center justify-center space-x-3 mb-2">
+                    <span class="text-3xl sm:text-4xl font-black text-white">$2.99 <span class="text-sm text-slate-400 font-normal">/ mes</span></span>
+                    <span class="bg-amber-500/20 border border-amber-500/40 text-amber-400 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">
+                        🥤 Menos que un refresco
+                    </span>
+                </div>
+                
+                <!-- Badge Pago Móvil -->
+                <div class="mt-3 pt-3 border-t border-slate-800 flex items-center justify-center space-x-2 text-xs font-bold text-sky-400 bg-sky-950/30 py-1.5 px-3 rounded-lg border border-sky-500/20">
+                    <i class="fa-solid fa-mobile-screen-button text-sm"></i>
+                    <span>Pagas fácilmente en Bolívares vía PAGO MÓVIL</span>
+                </div>
+
+                <p class="text-xs text-emerald-400 mt-2 font-medium"><i class="fa-solid fa-circle-check mr-1"></i> ¡Inicia HOY con 1 MES DE PRUEBA GRATIS!</p>
+            </div>
+
+            <!-- Primary CTA Button -->
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 max-w-md mx-auto mb-6">
+                <a href="URL_DE_TU_APLICACION_AQUI" class="app-launch-btn w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold py-4 px-8 rounded-2xl text-lg transition-all transform hover:-translate-y-1 shadow-2xl shadow-emerald-500/40 flex items-center justify-center space-x-3">
+                    <i class="fa-solid fa-play-circle text-2xl"></i>
+                    <span>EMPEZAR PRUEBA GRATIS</span>
+                </a>
+            </div>
+
+            <p class="text-xs text-slate-400">Sin tarjetas de crédito • Comienzas a vender de inmediato</p>
+
+            <!-- Mockup Preview / Feature Demo -->
+            <div class="mt-12 max-w-5xl mx-auto rounded-3xl border border-slate-700/60 bg-slate-900/80 p-3 sm:p-5 shadow-2xl glow-card">
+                <div class="flex items-center space-x-2 mb-3 px-2">
+                    <div class="w-3 h-3 rounded-full bg-rose-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-amber-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
+                    <span class="text-xs text-slate-500 font-mono ml-2">BodegaExpress VE Pro v5.7 - Sistema Operativo Comercial</span>
+                </div>
+                <div class="bg-slate-950 rounded-2xl p-6 border border-slate-800 text-left grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+                        <div class="text-xs text-slate-400 mb-1">Tasa BCV Sincronizada</div>
+                        <div class="text-2xl font-bold text-emerald-400">Actualizada HOY</div>
+                        <div class="text-xs text-slate-500 mt-2">Dólares, Euros y USDT adaptados al instante.</div>
+                    </div>
+                    <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+                        <div class="text-xs text-slate-400 mb-1">Escáner de Código de Barras</div>
+                        <div class="text-2xl font-bold text-sky-400">Usa tu Cámara</div>
+                        <div class="text-xs text-slate-500 mt-2">Sin comprar escáneres costosos.</div>
+                    </div>
+                    <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+                        <div class="text-xs text-slate-400 mb-1">Cuentas por Cobrar</div>
+                        <div class="text-2xl font-bold text-amber-400">Control de Fiados</div>
+                        <div class="text-xs text-slate-500 mt-2">Jamás vuelvas a perder dinero por fiar.</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- METÁFORA COMPARATIVA / BENEFICIO ECONÓMICO -->
+    <section class="py-16 bg-slate-950 border-y border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-r from-emerald-950/50 via-slate-900 to-emerald-950/50 border border-emerald-500/30 rounded-3xl p-6 sm:p-10 text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-8">
+                <div class="space-y-3 max-w-xl">
+                    <div class="inline-block px-3 py-1 bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold rounded-lg uppercase">
+                        Comparativa de Inversión
+                    </div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white">
+                        ¿Un refresco de 2 Litros o la Tranquilidad de tu Negocio?
+                    </h2>
+                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                        Un refresco de 2 litros te cuesta alrededor de $3.00 y se acaba en una tarde. **BodegaExpress VE Pro** te cuesta solo **$2.99 AL MES** (menos de $0.10 al día) y te da el control total de tus ventas, evita desfalcos en inventario y te ayuda a cobrar tus fiados a tiempo.
+                    </p>
+                </div>
+                <div class="shrink-0 bg-slate-900 border border-slate-700 p-6 rounded-2xl text-center w-full md:w-auto min-w-[240px]">
+                    <span class="text-4xl mb-2 block">🥤 vs 💼</span>
+                    <div class="text-2xl font-black text-emerald-400">$2.99 / Mes</div>
+                    <span class="text-xs text-slate-400 block mb-3">Menos de $0.10 diarios</span>
+                    <span class="inline-flex items-center text-[11px] font-bold text-sky-400 bg-sky-950/80 px-2.5 py-1 rounded-md border border-sky-500/30">
+                        <i class="fa-solid fa-mobile-screen-button mr-1.5"></i> Pagas vía Pago Móvil
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARACTERÍSTICAS PRINCIPALES -->
+    <section class="py-20 bg-[#030712]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">Diseñado Exactamente para la Realidad de Venezuela</h2>
+                <p class="text-slate-400 text-base">Olvídate de sistemas complicados que cobran cientos de dólares. Aquí tienes todo lo que necesitas.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 hover:border-emerald-500/50 transition">
+                    <div class="w-12 h-12 bg-emerald-500/10 text-emerald-400 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-coins"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Multidivisa y Tasa BCV</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        El sistema convierte tus precios automáticamente entre Dólares y Bolívares usando la tasa oficial del día (BCV, Euro, USDT).
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 hover:border-emerald-500/50 transition">
+                    <div class="w-12 h-12 bg-sky-500/10 text-sky-400 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Renovación con Pago Móvil</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Sin tarjetas de crédito internacionales. Cuando termine tu mes gratis, renuevas abonando tu equivalente en Bolívares por Pago Móvil.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 hover:border-emerald-500/50 transition">
+                    <div class="w-12 h-12 bg-amber-500/10 text-amber-400 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Control de Fiados y Abonos</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Registra los créditos de tus clientes habituales, visualiza exactamente qué llevaron y registra sus abonos parciales o totales.
+                    </p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 hover:border-emerald-500/50 transition">
+                    <div class="w-12 h-12 bg-purple-500/10 text-purple-400 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Ventas por Peso (Kilos/Gramos)</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Perfecto para charcutería, queso, carne o verduras. Vende por kilos exactos o calcula cuántos gramos equivalen a $1 o Bs. 50.
+                    </p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 hover:border-emerald-500/50 transition">
+                    <div class="w-12 h-12 bg-rose-500/10 text-rose-400 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-receipt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Cierre de Caja (Corte Z)</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Entérate de cuánto vendiste al final de la jornada desglosado por Pago Móvil, Divisas, Punto de Venta y Zelle.
+                    </p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 hover:border-emerald-500/50 transition">
+                    <div class="w-12 h-12 bg-teal-500/10 text-teal-400 rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-barcode"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Escáner con Cámara Integrado</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Aprovecha la cámara de tu celular o tablet para escanear productos rápidamente sin comprar equipos costosos.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALES DE COMERCIANTES -->
+    <section class="py-16 bg-slate-950 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-white text-center mb-12">Comerciantes que ya Automatizaron su Negocio</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
+                    <div class="flex text-amber-400 mb-3 text-sm">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-sm mb-4">"Lo que más me gusta es el control de fiados. Antes anotaba en un cuaderno y siempre se me traspapelaban las cuentas. Ahora tengo todo claro en el teléfono."</p>
+                    <div class="font-bold text-white text-sm">Carlos Mendoza</div>
+                    <div class="text-xs text-emerald-400">Bodega "El Triunfo" - Maracay</div>
+                </div>
+
+                <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
+                    <div class="flex text-amber-400 mb-3 text-sm">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-sm mb-4">"Calcular el queso por gramos en dólares y pasarlo a bolívares me quitaba mucho tiempo. Con el sistema solo pongo los bolívares que me da el cliente y listo."</p>
+                    <div class="font-bold text-white text-sm">María Rodríguez</div>
+                    <div class="text-xs text-emerald-400">Inversiones La Bendición - Caracas</div>
+                </div>
+
+                <div class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
+                    <div class="flex text-amber-400 mb-3 text-sm">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-sm mb-4">"Pagar solo $2.99 al mes por Pago Móvil es un regalo. Otros sistemas cobran cientos de dólares de contado más la mensualidad. Este lo empecé a usar gratis de una."</p>
+                    <div class="font-bold text-white text-sm">José Gregorio Silva</div>
+                    <div class="text-xs text-emerald-400">Abasto San José - Valencia</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLANES / OFERTA -->
+    <section class="py-20 gradient-bg border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            
+            <span class="text-emerald-400 text-xs font-bold uppercase tracking-widest bg-emerald-950/80 px-4 py-1.5 rounded-full border border-emerald-500/30">Comienza Hoy Mismo</span>
+            <h2 class="text-3xl sm:text-5xl font-black text-white mt-4 mb-6">Prueba Gratis durante 30 Días</h2>
+            <p class="text-slate-300 text-base sm:text-lg mb-10 max-w-xl mx-auto">Prueba el sistema completo sin compromiso. Si te gusta y te ayuda a vender más, continúas por solo $2.99 mensuales (en Bs por Pago Móvil).</p>
+
+            <div class="bg-slate-900 border-2 border-emerald-500/80 rounded-3xl p-8 shadow-2xl relative max-w-md mx-auto">
+                <div class="absolute -top-4 right-6 bg-emerald-500 text-slate-950 font-black text-xs uppercase px-3 py-1 rounded-full shadow-lg">
+                    Sin Contratos
+                </div>
+
+                <h3 class="text-xl font-bold text-white mb-2">Licencia BodegaExpress Pro</h3>
+                <div class="my-6">
+                    <span class="text-5xl font-black text-white">$2.99</span>
+                    <span class="text-slate-400">/ mes</span>
+                    <div class="text-xs text-amber-400 font-bold mt-1">🥤 ¡Menos que el precio de un refresco!</div>
+                    <div class="text-xs text-emerald-400 font-semibold mt-1">¡Primer mes completamente GRATIS!</div>
+                </div>
+
+                <!-- Método de Pago destacado -->
+                <div class="bg-slate-950 border border-sky-500/30 p-3 rounded-xl mb-6 text-xs text-sky-300 flex items-center justify-center space-x-2">
+                    <i class="fa-solid fa-mobile-screen-button text-base text-sky-400"></i>
+                    <span>Renovaciones mensuales en Bolívares mediante <strong>Pago Móvil BNC</strong> a Tasa BCV.</span>
+                </div>
+
+                <ul class="text-left text-sm text-slate-300 space-y-3 mb-8">
+                    <li class="flex items-center"><i class="fa-solid fa-check text-emerald-400 mr-2.5"></i> Registro de Productos Ilimitados</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-emerald-400 mr-2.5"></i> Tasa BCV y Conversor de Divisas</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-emerald-400 mr-2.5"></i> Escáner por Cámara Integrado</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-emerald-400 mr-2.5"></i> Módulo de Fiados y Clientes</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-emerald-400 mr-2.5"></i> Ventas por Peso y Cierre de Caja Z</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-emerald-400 mr-2.5"></i> Soporte por WhatsApp directo</li>
+                </ul>
+
+                <!-- BOTÓN CTA PLAN -->
+                <a href="URL_DE_TU_APLICACION_AQUI" class="app-launch-btn w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold py-4 rounded-xl text-base transition shadow-xl shadow-emerald-500/30 flex items-center justify-center space-x-2">
+                    <i class="fa-solid fa-bolt"></i>
+                    <span>INICIAR MI PRUEBA GRATIS</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES (CUMPLIMIENTO POLITICAS FACEBOOK ADS) -->
+    <section class="py-16 bg-slate-950 border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-bold text-white text-center mb-8">Preguntas Frecuentes</h2>
+            
+            <div class="space-y-4 text-left">
+                <div class="bg-slate-900 p-5 rounded-xl border border-slate-800">
+                    <h3 class="font-bold text-white text-sm sm:text-base">¿Tengo que pagar algo hoy para probarlo?</h3>
+                    <p class="text-slate-400 text-xs sm:text-sm mt-2">No. Tienes un mes completo de prueba totalmente gratis. Entras a la aplicación y comienzas a vender de inmediato.</p>
+                </div>
+
+                <div class="bg-slate-900 p-5 rounded-xl border border-slate-800">
+                    <h3 class="font-bold text-white text-sm sm:text-base">¿Cómo puedo pagar la suscripción después de mi mes gratis?</h3>
+                    <p class="text-slate-400 text-xs sm:text-sm mt-2">Puedes cancelar tus $2.99 mensuales al equivalente en Bolívares usando **Pago Móvil a Tasa BCV**. El sistema te muestra los datos bancarios y recibes tu código de renovación al instante por WhatsApp.</p>
+                </div>
+
+                <div class="bg-slate-900 p-5 rounded-xl border border-slate-800">
+                    <h3 class="font-bold text-white text-sm sm:text-base">¿Necesito instalar equipos o impresoras especiales?</h3>
+                    <p class="text-slate-400 text-xs sm:text-sm mt-2">No. Funciona desde cualquier teléfono inteligente (Android o iPhone), tablet o laptop. Utiliza la cámara integrada para escanear productos sin comprar lectores externos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER (POLÍTICAS Y CUMPLIMIENTO META/FACEBOOK ADS) -->
+    <footer class="bg-[#030712] py-10 border-t border-slate-800 text-xs text-slate-500 text-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+            <div class="flex justify-center space-x-6 text-slate-400 font-medium">
+                <a href="#privacy" class="hover:underline">Política de Privacidad</a>
+                <a href="#terms" class="hover:underline">Términos de Servicio</a>
+                <a href="#contact" class="hover:underline">Soporte Técnico</a>
+            </div>
+            
+            <p>BodegaExpress VE Pro &copy; 2026. Todos los derechos reservados.</p>
+            
+            <!-- Descargo de responsabilidad exigido por Meta Ads -->
+            <p class="max-w-3xl mx-auto text-[10px] text-slate-600 leading-normal">
+                Este sitio web no forma parte del sitio web de Facebook ni de Meta Platforms, Inc. Además, este sitio NO está respaldado por Facebook de ninguna manera. FACEBOOK es una marca registrada de META PLATFORMS, INC. Los resultados expuestos pueden variar según la administración individual de cada comercio.
+            </p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT PARA ENLAZAR EL BOTÓN A TU APLICACIÓN -->
+    <script>
+        // Cambia esta variable con la ruta donde está tu archivo HTML de la App
+        const APP_URL = "index.html"; 
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const buttons = document.querySelectorAll('.app-launch-btn');
+            buttons.forEach(btn => {
+                btn.href = APP_URL;
+            });
+        });
+    </script>
+</body>
+</html>
